@@ -1,0 +1,537 @@
+
+@font-face {
+    font-family: 'Inter';
+    src : url("../fonts/Inter/static/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Inter-Extra-Bold';
+    src : url("../fonts/Inter/static/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Inter-Light';
+    src : url("../fonts/Inter/static/Inter-Light.ttf");
+}
+
+body{
+    background-color: #FFFFFF;
+    padding:0;
+    margin:0;
+    max-width: 100vw;
+    box-sizing: border-box;
+    overflow-x: clip !important;
+    max-width: 100vw !important;
+}
+
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-image: url("../images/EllipseTop.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding : 0;
+    margin: 0;
+    max-width: 100vw;
+}
+
+.wrapper{
+    padding: 50px 7vw;
+    background-image: url("../images/Ellipse2.svg");
+    background-position: bottom right -2vw;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+    padding-bottom: 30px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 7vw;
+    padding-top: 36px;
+    width: 100%;
+}
+
+.header .btn-div{
+    padding : 0 24px;
+}
+
+.login-btn{
+    background: rgba(0, 61, 214, 0.1);
+    padding: 13px 50px;
+    border : 0px solid transparent;
+    border-radius: 10px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+
+    /* or 125% */
+    text-align: center;
+
+    color: #003DD6;
+
+    margin-right: 24px;
+}
+
+
+.signup-btn{
+    background: #003DD6;
+    border-radius: 10px;
+    padding: 13px 50px;
+    border : 0px solid transparent;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* or 125% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #FFFFFF;
+}
+
+.hero-heading{
+    font-family: Inter-Extra-Bold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 98px;
+
+    /* or 153% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+    color: #18191F;
+
+
+}
+
+.hero-text{
+    font-family: Inter-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+
+    /* or 160% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+    color: #18191F;
+    padding: 0 7vw;
+}
+
+.join-community-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.join-community-btn{
+    font-family: Inter-Light;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 20px;
+
+    /* or 105% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #FFFFFF;
+
+    background: #003DD6;
+    border-radius: 10px;
+    padding : 18px 56px
+}
+
+.landing-hr{
+    border: 1px solid #E5E5E5;
+    margin-top: 100px;
+}
+
+.landing-hr2{
+    border: 1px solid #E5E5E5;
+    margin-top: 24px;
+}
+
+.landing-meet-members-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 20px;
+    margin-top: 2rem;
+
+    /* or 77% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    margin-top: 40px;
+
+    color: #18191F;
+}
+
+.brand-logo{
+    width:100px;
+    max-height: 135px;
+}
+
+.partner-logo{
+    width: 100px;
+}
+
+.partner-logos-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top  : 36px;
+    padding : 0 3vw;
+    margin-bottom: 2rem;
+}
+
+.why-text{
+    font-family: Inter-Extra-Bold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 98px;
+    margin-top: 75px;
+
+    /* identical to box height, or 204% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+    color: #18191F;
+
+
+}
+
+.sateeq-blue{
+    color: #003DD6
+}
+
+.why-cards{
+    background: #FFFFFF;
+    border: 1px solid rgba(229, 229, 229, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding : 15px;
+}
+.why-headings{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 20px;
+
+    /* or 91% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #003DD6;
+    margin-top: 1rem;
+}
+
+.why-content{
+    font-family: Inter-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    /* or 200% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+    color: #18191F;
+}
+
+.why-cards-div{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+
+.why-vector{
+    height : 160px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.why-vector img{
+    width: 150px;
+}
+
+.join-club-div{
+    background: #003DD6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 50px 70px 10px 70px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-text{
+    font-family: Inter-Extra-Bold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 54px;
+
+    /* or 135% */
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #FFFFFF;
+
+    width: max-content;
+    max-width:100%;
+}
+
+.join-club-div .left{
+    width: 55%;
+}
+
+.join-club-div .right{
+    margin-left: 36px;
+    margin-top: -20px;
+}
+
+.join-club-div .right .vectors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 0 10px;
+}
+
+.join-club-div .right .vectors .vector{
+    margin: 0 10px;
+    width : 120px;
+}
+
+.join-club-div .left .join-btn{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding : 20px 40px;
+
+    font-family: Inter-Light;
+    font-style: normal;
+
+    color: #003DD6;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 20px;
+
+    /* or 105% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    margin: 20px 0;
+}
+
+.footer{
+    background-color: #F5F7FE;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.footer-revolution{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+
+    /* or 143% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #263238;
+}
+
+.footer-social-info{
+    font-family: Inter-Light;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+
+    /* or 143% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: rgba(38, 50, 56, 0.75);
+}
+
+.top-ellipse-div{
+    background-color: blue;
+}
+
+.join-vector{
+    margin-top: -100px;
+    margin-right: -50px;
+    float: right;
+}
+
+.why-cards-div .row{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .why-cards {
+        margin-top: 2rem;
+    }
+
+    .wrapper{
+        margin-top:0
+    }
+
+    .hero-heading{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 2rem;
+    }
+
+    .login-btn{
+        margin-right: 8px;
+    }
+
+    .login-btn , .signup-btn{
+        font-size: .7rem;
+        padding: 6px 18px;
+    }
+
+    .hero-text{
+        font-size: 16px;
+    }
+
+    .join-community-div{
+        padding-top: 20px;
+    }
+    
+    .landing-hr{
+        margin-top: 60px;
+    }
+
+    .landing-meet-members-text{
+        font-size: 1rem;
+        margin-top: 18px;
+    }
+
+    .partner-logos-div{
+        margin-top: 18px;margin-bottom: 1rem;
+    }
+
+    .partner-logo{
+        width: 45px;
+    }
+
+    .why-text{
+        margin-top: 28px;
+        font-size: 20px;
+        line-height:40px
+    }
+
+    .why-cards-div{
+        margin-top: 0;
+    }
+
+    .join-club-div{
+        display: block;
+        padding: 50px 24px 50px 24px;
+        text-align: center;
+    }
+
+    .join-vector{
+        display: none;
+    }
+    
+    .join-club-div .left{
+        width: 100%;
+    }
+
+    .join-text{
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+    }  
+
+    .join-club-div .right .vectors{
+        padding: 0 18px;
+    }
+    
+    .join-club-div .right .vectors .vector{
+        width: 80px;
+    }
+
+    .join-club-div .right{
+        margin:0
+    }
+
+    .footer{
+        margin-top: 40px;
+    }
+
+    .join-club-div .left .join-btn{
+        padding:12px 16px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .why-cards{
+       margin-top: 28px !important;
+   }
+
+   .join-club-div{
+        display: block;
+        padding: 50px 24px 50px 24px;
+        text-align: center;
+    }
+
+    .join-vector{
+        display: none;
+    }
+    
+    .join-club-div .left{
+        width: 100%;
+    }
+
+    .join-club-div .right{
+        margin:0
+    }
+}
