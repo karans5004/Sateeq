@@ -37,7 +37,7 @@ body{
 .container{
     width: 100%;
     background-image: url("../images/EllipseTop.svg");
-    background-position: top -6vw left;
+    background-position: top left;
     background-repeat: no-repeat;
     padding : 0;
     margin: 0;
@@ -54,9 +54,9 @@ body{
 }
 
 .header{
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     padding: 0 7vw;
     padding-top: 36px;
     width: 100%;
@@ -87,18 +87,21 @@ body{
 }
 
 
-.get-early-access-header-btn{
+.signup-btn{
     background: #003DD6;
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 13px 50px;
     border : 0px solid transparent;
 
-    font-family: Inter-Light;
+    font-family: Inter;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 20px;
+
+    /* or 125% */
     text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
 
     color: #FFFFFF;
 }
@@ -108,37 +111,43 @@ body{
     font-style: normal;
     font-weight: 800;
     font-size: 58px;
-    line-height: 84px;
+    line-height: 98px;
 
     /* or 153% */
-    text-align: left;
+    text-align: center;
     font-feature-settings: 'salt' on, 'liga' off;
 
     /* Text / Gray 900 */
     color: #18191F;
+
+
 }
 
-.hero-heading .highlight{
-    
-    font-family: Inter-Extra-Bold;
+.hero-text{
+    font-family: Inter-Light;
     font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 77px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
 
-    background: -webkit-linear-gradient(268.01deg, #2506C4 0%, #1E85FF 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* or 160% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
 
+    /* Text / Gray 900 */
+    color: #18191F;
+    padding: 0 7vw;
 }
 
-.hero-early-access-btn{
-    background: #1E47FF;
-    border-radius: 10px;
-    padding : 20px 55px;
-    border : 0px solid;
-    font-family: Inter;
+.join-community-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.join-community-btn{
+    font-family: Inter-Light;
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
@@ -149,151 +158,21 @@ body{
     font-feature-settings: 'salt' on, 'liga' off;
 
     color: #FFFFFF;
-}
 
-.startup-life-svg-div{
-    margin-top: -100px;
-}
-
-.db{
-    display: block;
-}
-
-.why-cols{
-    margin-top: 3rem;
-    padding : 1rem
-}
-
-.why-cols .why-headings{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 36px;
-    margin-top: 2rem;
-
-    color: #30323E;
-}
-
-.why-cols .why-info{
-    margin-top: 24px;
-
-    font-family: Inter-Light;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
-
-    /* or 160% */
-
-    color: #646464;
-}
-
-.timer-heads{
-    font-family: Inter-Light;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 34px;
-    width: 66%;
-    /* identical to box height, or 142% */
-    color: #646464;
-}
-
-.timer-time{
-    background: #E8EDFF;
-    display: inline-block;
+    background: #003DD6;
     border-radius: 10px;
-    padding : 10px 20px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 84px;
-    margin-right: 10px;
-
-    /* or 131% */
-    text-align: center;
-
-    color: #30323E;
-    margin-top: 30px;
+    padding : 18px 56px
 }
 
-.timer-left-div{
-    text-align: center;
-    margin-top: 30px;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 39px;
-
-    /* identical to box height */
-    text-align: center;
-
-    color: #1E47FF;
-
-
+.landing-hr{
+    border: 1px solid #E5E5E5;
+    margin-top: 100px;
 }
 
-.time-colons{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 84px;
-
-    /* or 131% */
-    text-align: center;
-
-    color: #30323E;
-    padding : 0 40px;
+.landing-hr2{
+    border: 1px solid #E5E5E5;
+    margin-top: 24px;
 }
-
-.timer-day{
-    display : flex;
-    justify-content: center;
-}
-
-.timer-blocks{
-    text-align: center;
-}
-
-.timer-div{
-    margin-top: 150px;
-}
-
-.why-sateeq-text{
-
-    margin-top: 60px;
-    font-family: Inter-Extra-Bold;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 48px;
-    text-align: center;
-
-    color: #30323E;
-
-
-}
-
-.hero-text{
-    font-family: Inter-Light;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 32px;
-
-    /* or 160% */
-    text-align: left;
-    font-feature-settings: 'salt' on, 'liga' off;
-
-    /* Text / Gray 900 */
-    color: #18191F;
-}
-
 
 .landing-meet-members-text{
     font-family: Inter;
@@ -312,10 +191,21 @@ body{
 }
 
 .brand-logo{
-    width:130px;
+    width:100px;
     max-height: 135px;
 }
 
+.partner-logo{
+    width: 100px;
+}
+
+.partner-logos-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top  : 36px;
+    padding : 0 3vw;
+    margin-bottom: 2rem;
+}
 
 .why-text{
     font-family: Inter-Extra-Bold;
@@ -339,21 +229,75 @@ body{
     color: #003DD6
 }
 
+.why-cards{
+    background: #FFFFFF;
+    border: 1px solid rgba(229, 229, 229, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding : 15px;
+}
+.why-headings{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 20px;
+
+    /* or 91% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #003DD6;
+    margin-top: 1rem;
+}
+
+.why-content{
+    font-family: Inter-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    /* or 200% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+    color: #18191F;
+}
+
+.why-cards-div{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+
+.why-vector{
+    height : 160px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.why-vector img{
+    width: 150px;
+}
+
 .join-club-div{
     background: #003DD6;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
     padding: 50px 70px 10px 70px;
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 
 .join-text{
-    font-family: Inter;
+    font-family: Inter-Extra-Bold;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 36px;
     line-height: 54px;
 
@@ -409,12 +353,12 @@ body{
 
 .footer{
     background-color: #F5F7FE;
-    padding: 100px 0;
+    padding: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: -90px;
+    margin-top: 80px;
     width: 100%;
 }
 
@@ -453,48 +397,48 @@ body{
 }
 
 .join-vector{
-    margin-top: -75px;
+    margin-top: -100px;
     margin-right: -50px;
     float: right;
-    width : 150px;
+}
+
+.why-cards-div .row{
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
+    .why-cards {
+        margin-top: 2rem;
+    }
 
     .wrapper{
         margin-top:0
     }
 
-    .header{
-        padding-left : 10px;
-        padding-right : 10px
-    }
-
     .hero-heading{
         font-size: 24px;
         line-height: 30px;
-        margin-bottom: 1rem;
-        text-align: center;
+        margin-bottom: 2rem;
     }
 
     .login-btn{
         margin-right: 8px;
     }
 
-    .login-btn , .get-early-access-header-btn{
-        font-size: 16px;
+    .login-btn , .signup-btn{
+        font-size: .7rem;
         padding: 6px 18px;
     }
 
     .hero-text{
         font-size: 16px;
-        text-align: center;
     }
 
-    .startup-life-svg-div{
-        margin-top: 20px;
+    .join-community-div{
+        padding-top: 20px;
     }
-
+    
     .landing-hr{
         margin-top: 60px;
     }
@@ -502,6 +446,24 @@ body{
     .landing-meet-members-text{
         font-size: 1rem;
         margin-top: 18px;
+    }
+
+    .partner-logos-div{
+        margin-top: 18px;margin-bottom: 1rem;
+    }
+
+    .partner-logo{
+        width: 45px;
+    }
+
+    .why-text{
+        margin-top: 28px;
+        font-size: 20px;
+        line-height:40px
+    }
+
+    .why-cards-div{
+        margin-top: 0;
     }
 
     .join-club-div{
@@ -536,54 +498,14 @@ body{
         margin:0
     }
 
+    .footer{
+        margin-top: 40px;
+    }
+
     .join-club-div .left .join-btn{
         padding:12px 16px;
         font-size: 16px;
-        border: 0px solid;
         margin-bottom: 30px;
-    }
-    
-    .startup-life-svg-div{
-        margin-top: 0;
-    }
-
-    .hero-heading .highlight{
-        font-size: inherit;
-        line-height:inherit;
-    }
-
-    .hero-early-access-btn{
-        padding : 10px 30px;
-        font-size: 1rem;
-        line-height:inherit;
-    }
-
-    .why-cols{
-        text-align: center;
-    }
-
-    .timer-time , .time-colons{
-        padding : 2px 12px;
-        font-size: 24px;
-        line-height: inherit;
-        margin-right: 0;
-        margin-top: 16px;
-    }
-
-    .timer-div{
-        margin-top: 60px;
-    }
-
-    .timer-left-div{
-        font-size: 24px;
-        line-height: inherit;
-    }
-
-    .startup-life-svg-div img{
-        max-width: 100%;
-    }
-    .wrapper .row .col-md-12{
-        text-align: center;
     }
 }
 
@@ -591,6 +513,9 @@ body{
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+  .why-cards{
+       margin-top: 28px !important;
+   }
 
    .join-club-div{
         display: block;
@@ -607,33 +532,6 @@ body{
     }
 
     .join-club-div .right{
-        margin:30px;
+        margin:0
     }
-    .startup-life-svg-div{
-        margin-top: 10px;
-    }
-    .hero-heading{
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-    .hero-text{
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-    .wrapper .row .col-md-12{
-        text-align: center;
-    }
-    .timer-time , .time-colons{
-        padding : 2px 12px;
-        font-size: 24px;
-        line-height: inherit;
-        margin-right: 0;
-        margin-top: 16px;
-    }
-    .timer-div{
-        margin-top: 60px;
-    }
-
-
-    
 }
