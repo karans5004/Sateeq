@@ -252,7 +252,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 39px;
 
     /* identical to box height */
@@ -605,7 +605,7 @@ body{
     }
 
     .timer-left-div{
-        font-size: 24px;
+        font-size: 20px;
         line-height: inherit;
     }
 
