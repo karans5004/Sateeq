@@ -1,4 +1,3 @@
-CountDownTimer('01/01/2022 12:0 AM', 'countdown');
 CountDownTimer('01/01/2022 12:0 AM', 'newcountdown');
 
 function CountDownTimer(dt, id)
@@ -25,14 +24,14 @@ function CountDownTimer(dt, id)
         var hours = Math.floor((distance % _day) / _hour);
         var minutes = Math.floor((distance % _hour) / _minute);
 
-        day_0 = days.toString().split("")[0]
-        day_1 = days.toString().split("")[1]
+        day_0 = days.toString().split("")[1] ? days.toString().split("")[0] : 0
+        day_1 = days.toString().split("")[1] ? days.toString().split("")[1] : days.toString().split("")[0]
 
-        hr_0 = hours.toString().split("")[0]
-        hr_1 = hours.toString().split("")[1]
+        hr_0 = hours.toString().split("")[1] ? hours.toString().split("")[0] : 0
+        hr_1 = hours.toString().split("")[1] ? hours.toString().split("")[1] : hours.toString().split("")[0]
 
-        min_0 = minutes.toString().split("")[0]
-        min_1 = minutes.toString().split("")[1]
+        min_0 = minutes.toString().split("")[1] ? minutes.toString().split("")[0] : 0
+        min_1 = minutes.toString().split("")[1] ? minutes.toString().split("")[1] : minutes.toString().split("")[0]
 
         document.getElementById("day_0").innerHTML = day_0;
         document.getElementById("day_1").innerHTML = day_1;
