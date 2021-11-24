@@ -16,8 +16,6 @@ function CountDownTimer(dt, id)
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById(id).innerHTML = 'EXPIRED!';
-
             return;
         }
         var days = Math.floor(distance / _day);
